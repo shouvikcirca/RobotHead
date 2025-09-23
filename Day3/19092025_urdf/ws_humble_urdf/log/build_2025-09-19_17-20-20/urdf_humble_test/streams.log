@@ -1,0 +1,24 @@
+[0.030s] Invoking command in '/home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/build/urdf_humble_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/build/urdf_humble_test -- -j16 -l16
+[0.140s] Invoked command in '/home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/build/urdf_humble_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/build/urdf_humble_test -- -j16 -l16
+[0.167s] Invoking command in '/home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/build/urdf_humble_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/build/urdf_humble_test
+[0.186s] -- Install configuration: ""
+[0.186s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/launch
+[0.186s] -- Installing: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/launch/display.launch.py
+[0.187s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/urdf
+[0.187s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/config
+[0.188s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/ament_index/resource_index/package_run_dependencies/urdf_humble_test
+[0.188s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/ament_index/resource_index/parent_prefix_path/urdf_humble_test
+[0.189s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/environment/ament_prefix_path.sh
+[0.189s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/environment/ament_prefix_path.dsv
+[0.189s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/environment/path.sh
+[0.190s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/environment/path.dsv
+[0.190s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/local_setup.bash
+[0.190s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/local_setup.sh
+[0.191s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/local_setup.zsh
+[0.191s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/local_setup.dsv
+[0.191s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/package.dsv
+[0.191s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/ament_index/resource_index/packages/urdf_humble_test
+[0.191s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/cmake/urdf_humble_testConfig.cmake
+[0.191s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/cmake/urdf_humble_testConfig-version.cmake
+[0.191s] -- Up-to-date: /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/package.xml
+[0.208s] Invoked command in '/home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/build/urdf_humble_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/build/urdf_humble_test

@@ -1,0 +1,9 @@
+/home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/src/urdf_humble_test/build/urdf_humble_test/CMakeFiles/uninstall.dir
+/home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/src/urdf_humble_test/build/urdf_humble_test/CMakeFiles/urdf_humble_test_uninstall.dir
+/home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/src/urdf_humble_test/build/urdf_humble_test/CMakeFiles/test.dir
+/home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/src/urdf_humble_test/build/urdf_humble_test/CMakeFiles/edit_cache.dir
+/home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/src/urdf_humble_test/build/urdf_humble_test/CMakeFiles/rebuild_cache.dir
+/home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/src/urdf_humble_test/build/urdf_humble_test/CMakeFiles/list_install_components.dir
+/home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/src/urdf_humble_test/build/urdf_humble_test/CMakeFiles/install.dir
+/home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/src/urdf_humble_test/build/urdf_humble_test/CMakeFiles/install/local.dir
+/home/shouviks/shouvik/19092025_urdf/ws_humble_urdf/src/urdf_humble_test/build/urdf_humble_test/CMakeFiles/install/strip.dir
