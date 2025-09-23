@@ -1,0 +1,2 @@
+robot_model_pkg
+-DCATKIN_DEVEL_PREFIX=/home/shouviks/shouvik/22092025/devel -DCMAKE_INSTALL_PREFIX=/home/shouviks/shouvik/22092025/install -G Unix Makefiles
