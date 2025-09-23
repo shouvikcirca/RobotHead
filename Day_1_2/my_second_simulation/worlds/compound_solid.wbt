@@ -1,0 +1,146 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/OldSteel.proto"
+
+WorldInfo {
+  basicTimeStep 16
+  contactProperties [
+    ContactProperties {
+      material2 "dumbbell"
+      coulombFriction [
+        0
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation 0.21430907806639554 0.017347233511402417 -0.9766118433378905 2.985546022679628
+  position 3.022296645001485 0.357962436731561 1.2560656729437893
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 1 1
+}
+Solid {
+  translation 0 0 0.9
+  rotation 1 0 0 1.6427053933853557
+  children [
+    DEF GO Group {
+      children [
+        Pose {
+          translation 0 0 -0.3
+          children [
+            Shape {
+              geometry Sphere {
+                radius 0.1
+              }
+            }
+          ]
+        }
+        Pose {
+          translation 0 0 0.32
+          children [
+            Shape {
+              geometry Sphere {
+                radius 0.1
+              }
+            }
+          ]
+        }
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Cylinder {
+            height 0.5
+            radius 0.05
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(3)"
+  contactMaterial "dumbbell"
+  boundingObject USE GO
+  physics Physics {
+    mass 2
+    centerOfMass [
+      0 50 0.01
+    ]
+  }
+}
+WoodenBox {
+  translation 0.236018 0.167043 0.02
+  rotation 0 0 1 0.523599
+  size 0.03 0.03 0.03
+}
+E-puck {
+  translation -0.007791177547794416 0.034100407445551546 -5.246418557828918e-05
+  rotation -0.0008195057644535732 -0.00010819436885538339 0.999999658352082 2.268960098925505
+  controller "epuck_avoid_collision"
+  controllerArgs [
+    ""
+  ]
+}
+WoodenBox {
+  translation -0.070845 -0.139952 0.02
+  rotation 0 0 1 -0.523595307179586
+  name "wooden box(2)"
+  size 0.03 0.03 0.03
+}
+WoodenBox {
+  translation -0.14979 0.182657 0.02
+  rotation 0 0 1 -1.047195307179586
+  name "wooden box(1)"
+  size 0.03 0.03 0.03
+}
+Solid {
+  translation -0.1254506367944973 0.31855802183014886 0.024948634960113802
+  rotation 0.5963396528354769 0.5720845874568152 0.5631147691638256 -1.5858411684092344
+  children [
+    Shape {
+      appearance OldSteel {
+      }
+      geometry DEF BALL_GEOMETRY Sphere {
+        radius 0.025
+        subdivision 3
+      }
+    }
+  ]
+  boundingObject USE BALL_GEOMETRY
+  physics Physics {
+  }
+}
+DEF WALL_GEOMETRY Solid {
+  translation 3.59948e-08 0.49 0.0500006
+  rotation -1 -3.88407e-07 3.69431e-07 -1.5708053071795867
+  children [
+    Shape {
+      geometry DEF WALL_SHAPE_GEOMETRY Box {
+        size 1 0.1 0.02
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject DEF WALL_RIGID_BODY Box {
+    size 1 0.1 0.02
+  }
+}
+Solid {
+  translation 0 -0.49 0.0499999
+  rotation 1 0 0 -1.5707953071795862
+  children [
+    Shape {
+      geometry USE WALL_SHAPE_GEOMETRY
+    }
+  ]
+  name "solid(2)"
+  boundingObject USE WALL_RIGID_BODY
+}

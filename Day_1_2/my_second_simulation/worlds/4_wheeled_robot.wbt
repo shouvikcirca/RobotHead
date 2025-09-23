@@ -1,0 +1,261 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/OldSteel.proto"
+
+WorldInfo {
+  basicTimeStep 16
+  contactProperties [
+    ContactProperties {
+      material2 "dumbbell"
+      coulombFriction [
+        0
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation 0.28740783544406934 0.341842600245821 -0.8947292175750888 1.5099107337644382
+  position 0.18462093055190554 1.6771125148475186 1.002125304502379
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 1 1
+}
+WoodenBox {
+  translation 0.336036 -0.1362 0.11
+  rotation 0 0 -1 4.692820414042842e-06
+  size 0.2 0.2 0.2
+}
+E-puck {
+  hidden position_0_0 196.6687050966959
+  hidden position_0_1 19.68383915814844
+  hidden translation_1 0 0.026 0.02
+  hidden rotation_1 0 -1 0 4.393224733050865
+  hidden translation_2 0 -0.026 0.02
+  hidden rotation_2 0 -1 0 5.448902070569905
+  translation -0.08721410632236612 0.3862797396472105 -3.1167135846901783e-05
+  rotation 0.00018647148758141224 -7.24641228891635e-05 0.9999999799886675 2.399749196266698
+  controller "epuck_avoid_collision"
+  controllerArgs [
+    ""
+  ]
+}
+WoodenBox {
+  translation -0.27089 0.21585 0.02
+  rotation 0 0 1 -0.523595307179586
+  name "wooden box(2)"
+  size 0.03 0.03 0.03
+}
+WoodenBox {
+  translation -0.14979 0.182657 0.02
+  rotation 0 0 1 -1.047195307179586
+  name "wooden box(1)"
+  size 0.03 0.03 0.03
+}
+Solid {
+  translation -0.1254506367944973 0.31855802183014886 0.024948634960113802
+  rotation -0.5963396528354769 -0.5720845874568152 -0.5631147691638256 1.5858411684092342
+  children [
+    Shape {
+      appearance OldSteel {
+      }
+      geometry DEF BALL_GEOMETRY Sphere {
+        radius 0.025
+        subdivision 3
+      }
+    }
+  ]
+  boundingObject USE BALL_GEOMETRY
+  physics Physics {
+  }
+}
+DEF WALL_GEOMETRY Solid {
+  translation 3.59948e-08 0.49 0.0500006
+  rotation -1 -3.88407e-07 3.69431e-07 -1.5708053071795867
+  children [
+    Shape {
+      geometry DEF WALL_SHAPE_GEOMETRY Box {
+        size 1 0.1 0.02
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject DEF WALL_RIGID_BODY Box {
+    size 1 0.1 0.02
+  }
+}
+Solid {
+  translation 0 -0.49 0.0499999
+  rotation 1 0 0 -1.5707953071795862
+  children [
+    Shape {
+      geometry USE WALL_SHAPE_GEOMETRY
+    }
+  ]
+  name "solid(2)"
+  boundingObject USE WALL_RIGID_BODY
+}
+Robot {
+  translation -0.1191708578333839 -0.14565831039933697 0.039800713404349146
+  rotation 0.08207132031398434 0.10120311791689601 0.991474773912992 0.004017295430311755
+  children [
+    DistanceSensor {
+      translation 0.103 0.03 0
+      children [
+        Shape {
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds_left"
+    }
+    DistanceSensor {
+      translation 0.103 -0.03 0
+      children [
+        Shape {
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds_right"
+    }
+    DEF ROBOT_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+      }
+      geometry Box {
+        size 0.2 0.1 0.05
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 25.91536081141122
+        axis 0 1 0
+        anchor 0.05 0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel1"
+        }
+      ]
+      endPoint Solid {
+        translation 0.05 0.06 0
+        rotation 0.8637219425286579 0.3563589995059104 -0.35636030848800837 1.7167830597467386
+        children [
+          DEF WHEEL_SHAPE Shape {
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        boundingObject USE WHEEL_SHAPE
+        physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 25.915366398946055
+        axis 0 1 0
+        anchor 0.05 -0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel2"
+        }
+      ]
+      endPoint Solid {
+        translation 0.05000285380248199 -0.060001132126606974 2.405823906305023e-06
+        rotation 0.8637202036889289 0.35636110556608197 -0.3563624169006531 1.7167850549388244
+        children [
+          DEF WHEEL_SHAPE Shape {
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        name "solid(1)"
+        boundingObject USE WHEEL_SHAPE
+        physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 25.915369760665577
+        axis 0 1 0
+        anchor -0.05 -0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel3"
+        }
+      ]
+      endPoint Solid {
+        translation -0.05 -0.06 0
+        rotation 0.863719158320391 0.3563623735720665 -0.3563636825665578 1.7167862489629435
+        children [
+          DEF WHEEL_SHAPE Shape {
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        name "solid(2)"
+        boundingObject USE WHEEL_SHAPE
+        physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 1.6598721324567367e-07
+        axis 0 1 0
+        anchor -0.05 0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel4"
+        }
+      ]
+      endPoint Solid {
+        translation -0.05 0.06 0
+        rotation 0.9999999999999931 8.297248316678633e-08 -8.297278794229466e-08 1.570800000000006
+        children [
+          Shape {
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        name "solid(3)"
+        boundingObject Shape {
+          geometry Cylinder {
+            height 0.02
+            radius 0.04
+          }
+        }
+        physics Physics {
+        }
+      }
+    }
+  ]
+  boundingObject USE ROBOT_SHAPE
+  physics Physics {
+  }
+  controller "custom_obstacle_avoider"
+}
