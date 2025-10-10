@@ -1,0 +1,22 @@
+sudo apt install ros-humble-state-publisher
+sudo apt install ros-humble-rviz2
+sudo apt install ros-humble-tf2
+
+
+source /opt/ros/humble/setup.bash
+
+ros2 pkg|list
+
+ros2 pkg create --build-type ament_cmake demo_robot
+(should be executed inside the demo_ws/src folder)
+
+mkdir launch urdf config
+(should be executed in demo_ws/src/demo_robot folder)
+
+
+ros2 run tf2_tools view_frames
+(This will create the frame tree)
+
+ros2 run tf2_ros tf2_echo base_link first_link
+(To see all tranformation values framewise)
+

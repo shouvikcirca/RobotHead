@@ -1,0 +1,193 @@
+[0.000000] (-) TimerEvent: {}
+[0.001141] (demo_robot) JobQueued: {'identifier': 'demo_robot', 'dependencies': OrderedDict()}
+[0.001201] (demo_robot) JobStarted: {'identifier': 'demo_robot'}
+[0.018242] (demo_robot) JobProgress: {'identifier': 'demo_robot', 'progress': 'cmake'}
+[0.020844] (demo_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/shouviks/shouvik/Day5/demo_ws/src/demo_robot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/shouviks/shouvik/Day5/demo_ws/install/demo_robot'], 'cwd': '/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shouviks'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/shouviks'), ('OLDPWD', '/opt/ros'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shouviks'), ('NAME', 'shouviks-pc'), ('WSL_INTEROP', '/run/WSL/302_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Java/jdk-17:/mnt/c/Program Files/Java/jdk1.7.0_03/bin:/mnt/c/Users/shouviks/.cargo/bin:/mnt/c/Users/shouviks/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shouviks/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/shouviks/AppData/Roaming/npm:/mnt/d/CMake/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/lib:/mnt/d/OpenCV/opencv/build/include:/mnt/d/OpenCV/opencv/build/x64/vc16:/mnt/c/Users/shouviks/.dotnet/tools:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099858] (-) TimerEvent: {}
+[0.200399] (-) TimerEvent: {}
+[0.301292] (-) TimerEvent: {}
+[0.385304] (demo_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401928] (-) TimerEvent: {}
+[0.505403] (-) TimerEvent: {}
+[0.607889] (-) TimerEvent: {}
+[0.711327] (-) TimerEvent: {}
+[0.812399] (-) TimerEvent: {}
+[0.914184] (-) TimerEvent: {}
+[1.017667] (-) TimerEvent: {}
+[1.120430] (-) TimerEvent: {}
+[1.223911] (-) TimerEvent: {}
+[1.245064] (demo_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.325032] (-) TimerEvent: {}
+[1.428467] (-) TimerEvent: {}
+[1.531926] (-) TimerEvent: {}
+[1.635083] (-) TimerEvent: {}
+[1.738526] (-) TimerEvent: {}
+[1.840265] (-) TimerEvent: {}
+[1.849726] (demo_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.940467] (-) TimerEvent: {}
+[2.042914] (-) TimerEvent: {}
+[2.084427] (demo_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.090105] (demo_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.091280] (demo_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.092117] (demo_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.095695] (demo_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.143099] (-) TimerEvent: {}
+[2.244555] (-) TimerEvent: {}
+[2.328887] (demo_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.334511] (demo_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.334777] (demo_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.335177] (demo_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.344673] (-) TimerEvent: {}
+[2.351574] (demo_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.446295] (-) TimerEvent: {}
+[2.506625] (demo_robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.547661] (-) TimerEvent: {}
+[2.582358] (demo_robot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.628323] (demo_robot) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.648386] (-) TimerEvent: {}
+[2.751810] (-) TimerEvent: {}
+[2.855347] (-) TimerEvent: {}
+[2.885325] (demo_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.893621] (demo_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.907810] (demo_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.929917] (demo_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.953237] (demo_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.955578] (-) TimerEvent: {}
+[3.059072] (-) TimerEvent: {}
+[3.076971] (demo_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.081238] (demo_robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.161596] (-) TimerEvent: {}
+[3.265025] (-) TimerEvent: {}
+[3.368463] (-) TimerEvent: {}
+[3.471915] (-) TimerEvent: {}
+[3.573735] (-) TimerEvent: {}
+[3.677200] (-) TimerEvent: {}
+[3.780697] (-) TimerEvent: {}
+[3.882603] (-) TimerEvent: {}
+[3.985945] (-) TimerEvent: {}
+[4.087369] (-) TimerEvent: {}
+[4.190802] (-) TimerEvent: {}
+[4.294230] (-) TimerEvent: {}
+[4.397389] (-) TimerEvent: {}
+[4.500849] (-) TimerEvent: {}
+[4.602544] (-) TimerEvent: {}
+[4.705997] (-) TimerEvent: {}
+[4.809520] (-) TimerEvent: {}
+[4.912983] (-) TimerEvent: {}
+[5.013769] (-) TimerEvent: {}
+[5.108424] (demo_robot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.113982] (-) TimerEvent: {}
+[5.217021] (-) TimerEvent: {}
+[5.320458] (-) TimerEvent: {}
+[5.422038] (-) TimerEvent: {}
+[5.525516] (-) TimerEvent: {}
+[5.628958] (-) TimerEvent: {}
+[5.732404] (-) TimerEvent: {}
+[5.835886] (-) TimerEvent: {}
+[5.939333] (-) TimerEvent: {}
+[6.042561] (-) TimerEvent: {}
+[6.145986] (-) TimerEvent: {}
+[6.249487] (-) TimerEvent: {}
+[6.352990] (-) TimerEvent: {}
+[6.456499] (-) TimerEvent: {}
+[6.559953] (-) TimerEvent: {}
+[6.663394] (-) TimerEvent: {}
+[6.766814] (-) TimerEvent: {}
+[6.870265] (-) TimerEvent: {}
+[6.973178] (-) TimerEvent: {}
+[7.073937] (-) TimerEvent: {}
+[7.177491] (-) TimerEvent: {}
+[7.280951] (-) TimerEvent: {}
+[7.284611] (demo_robot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.384031] (-) TimerEvent: {}
+[7.487478] (-) TimerEvent: {}
+[7.589713] (-) TimerEvent: {}
+[7.693141] (-) TimerEvent: {}
+[7.796572] (-) TimerEvent: {}
+[7.899992] (-) TimerEvent: {}
+[8.003420] (-) TimerEvent: {}
+[8.106778] (-) TimerEvent: {}
+[8.210199] (-) TimerEvent: {}
+[8.313637] (-) TimerEvent: {}
+[8.417139] (-) TimerEvent: {}
+[8.520692] (-) TimerEvent: {}
+[8.624132] (-) TimerEvent: {}
+[8.727587] (-) TimerEvent: {}
+[8.831045] (-) TimerEvent: {}
+[8.934500] (-) TimerEvent: {}
+[9.037970] (-) TimerEvent: {}
+[9.138720] (-) TimerEvent: {}
+[9.242163] (-) TimerEvent: {}
+[9.345599] (-) TimerEvent: {}
+[9.449074] (-) TimerEvent: {}
+[9.552120] (-) TimerEvent: {}
+[9.655618] (-) TimerEvent: {}
+[9.759108] (-) TimerEvent: {}
+[9.862555] (-) TimerEvent: {}
+[9.966126] (-) TimerEvent: {}
+[10.069657] (-) TimerEvent: {}
+[10.173109] (-) TimerEvent: {}
+[10.276672] (-) TimerEvent: {}
+[10.377148] (-) TimerEvent: {}
+[10.479727] (-) TimerEvent: {}
+[10.580193] (-) TimerEvent: {}
+[10.683132] (-) TimerEvent: {}
+[10.786593] (-) TimerEvent: {}
+[10.890045] (-) TimerEvent: {}
+[10.993610] (-) TimerEvent: {}
+[11.097058] (-) TimerEvent: {}
+[11.154426] (demo_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.182242] (demo_robot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[11.197662] (-) TimerEvent: {}
+[11.298250] (-) TimerEvent: {}
+[11.401420] (-) TimerEvent: {}
+[11.459406] (demo_robot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[11.459663] (demo_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[11.501743] (-) TimerEvent: {}
+[11.603322] (-) TimerEvent: {}
+[11.680005] (demo_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.680990] (demo_robot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.703536] (-) TimerEvent: {}
+[11.806320] (-) TimerEvent: {}
+[11.909879] (-) TimerEvent: {}
+[12.013418] (-) TimerEvent: {}
+[12.116891] (-) TimerEvent: {}
+[12.220338] (-) TimerEvent: {}
+[12.323798] (-) TimerEvent: {}
+[12.427280] (-) TimerEvent: {}
+[12.530723] (-) TimerEvent: {}
+[12.634184] (-) TimerEvent: {}
+[12.736752] (-) TimerEvent: {}
+[12.840188] (-) TimerEvent: {}
+[12.943644] (-) TimerEvent: {}
+[13.047090] (-) TimerEvent: {}
+[13.150624] (-) TimerEvent: {}
+[13.252343] (-) TimerEvent: {}
+[13.355646] (-) TimerEvent: {}
+[13.459133] (-) TimerEvent: {}
+[13.562591] (-) TimerEvent: {}
+[13.663021] (-) TimerEvent: {}
+[13.766129] (-) TimerEvent: {}
+[13.827797] (demo_robot) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:15 (find_package):\n'}
+[13.828155] (demo_robot) StderrLine: {'line': b'  By not providing "Findtf2_geometry.cmake" in CMAKE_MODULE_PATH this project\n'}
+[13.828240] (demo_robot) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[13.828302] (demo_robot) StderrLine: {'line': b'  "tf2_geometry", but CMake did not find one.\n'}
+[13.828358] (demo_robot) StderrLine: {'line': b'\n'}
+[13.828411] (demo_robot) StderrLine: {'line': b'  Could not find a package configuration file provided by "tf2_geometry" with\n'}
+[13.828463] (demo_robot) StderrLine: {'line': b'  any of the following names:\n'}
+[13.828514] (demo_robot) StderrLine: {'line': b'\n'}
+[13.828615] (demo_robot) StderrLine: {'line': b'    tf2_geometryConfig.cmake\n'}
+[13.828687] (demo_robot) StderrLine: {'line': b'    tf2_geometry-config.cmake\n'}
+[13.828750] (demo_robot) StderrLine: {'line': b'\n'}
+[13.828806] (demo_robot) StderrLine: {'line': b'  Add the installation prefix of "tf2_geometry" to CMAKE_PREFIX_PATH or set\n'}
+[13.828850] (demo_robot) StderrLine: {'line': b'  "tf2_geometry_DIR" to a directory containing one of the above files.  If\n'}
+[13.828891] (demo_robot) StderrLine: {'line': b'  "tf2_geometry" provides a separate development package or SDK, be sure it\n'}
+[13.828946] (demo_robot) StderrLine: {'line': b'  has been installed.\n'}
+[13.828998] (demo_robot) StderrLine: {'line': b'\n'}
+[13.829037] (demo_robot) StderrLine: {'line': b'\x1b[0m\n'}
+[13.829122] (demo_robot) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[13.829208] (demo_robot) StdoutLine: {'line': b'See also "/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot/CMakeFiles/CMakeOutput.log".\n'}
+[13.840247] (demo_robot) CommandEnded: {'returncode': 1}
+[13.867036] (-) TimerEvent: {}
+[13.882947] (demo_robot) JobEnded: {'identifier': 'demo_robot', 'rc': 1}
+[13.893787] (-) EventReactorShutdown: {}

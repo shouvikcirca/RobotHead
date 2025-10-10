@@ -1,0 +1,32 @@
+[0.013s] Invoking command in '/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shouviks/shouvik/Day5/demo_ws/src/demo_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shouviks/shouvik/Day5/demo_ws/install/demo_robot
+[0.026s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.144s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.151s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.350s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.352s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.357s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.365s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.375s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.420s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.422s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.088s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.066s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[10.066s]   By not providing "Findtf2_geometry.cmake" in CMAKE_MODULE_PATH this project
+[10.066s]   has asked CMake to find a package configuration file provided by
+[10.066s]   "tf2_geometry", but CMake did not find one.
+[10.066s] 
+[10.066s]   Could not find a package configuration file provided by "tf2_geometry" with
+[10.066s]   any of the following names:
+[10.066s] 
+[10.066s]     tf2_geometryConfig.cmake
+[10.066s]     tf2_geometry-config.cmake
+[10.066s] 
+[10.066s]   Add the installation prefix of "tf2_geometry" to CMAKE_PREFIX_PATH or set
+[10.066s]   "tf2_geometry_DIR" to a directory containing one of the above files.  If
+[10.066s]   "tf2_geometry" provides a separate development package or SDK, be sure it
+[10.066s]   has been installed.
+[10.067s] 
+[10.067s] [0m
+[10.067s] -- Configuring incomplete, errors occurred!
+[10.067s] See also "/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot/CMakeFiles/CMakeOutput.log".
+[10.078s] Invoked command in '/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shouviks/shouvik/Day5/demo_ws/src/demo_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shouviks/shouvik/Day5/demo_ws/install/demo_robot

@@ -1,0 +1,4 @@
+Invoking command in '/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shouviks/shouvik/Day5/demo_ws/build/demo_robot -- -j16 -l16
+Invoked command in '/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shouviks/shouvik/Day5/demo_ws/build/demo_robot -- -j16 -l16
+Invoking command in '/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shouviks/shouvik/Day5/demo_ws/build/demo_robot
+Invoked command in '/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shouviks/shouvik/Day5/demo_ws/build/demo_robot

@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shouviks/shouvik/Day5/demo_ws/build/demo_robot -- -j16 -l16
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target test_tf2[0m
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target test_tf1[0m
+[0.081s] [100%] Built target test_tf1
+[0.082s] [100%] Built target test_tf2
+[0.095s] Invoked command in '/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shouviks/shouvik/Day5/demo_ws/build/demo_robot -- -j16 -l16
+[0.107s] Invoking command in '/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shouviks/shouvik/Day5/demo_ws/build/demo_robot
+[0.115s] -- Install configuration: ""
+[0.116s] -- Execute custom install script
+[0.116s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/lib/demo_robot/test_tf1
+[0.116s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/lib/demo_robot/test_tf2
+[0.116s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/display.launch.py
+[0.117s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/urdf/model.urdf
+[0.117s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/ament_index/resource_index/package_run_dependencies/demo_robot
+[0.117s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/ament_index/resource_index/parent_prefix_path/demo_robot
+[0.118s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/environment/ament_prefix_path.sh
+[0.118s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/environment/ament_prefix_path.dsv
+[0.118s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/environment/path.sh
+[0.118s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/environment/path.dsv
+[0.118s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/local_setup.bash
+[0.118s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/local_setup.sh
+[0.119s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/local_setup.zsh
+[0.119s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/local_setup.dsv
+[0.119s] -- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/package.dsv
+[0.131s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/ament_index/resource_index/packages/demo_robot
+[0.131s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/cmake/demo_robotConfig.cmake
+[0.131s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/cmake/demo_robotConfig-version.cmake
+[0.131s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/package.xml
+[0.134s] Invoked command in '/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shouviks/shouvik/Day5/demo_ws/build/demo_robot

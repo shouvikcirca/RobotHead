@@ -1,0 +1,44 @@
+[100%] Built target test_tf1
+[100%] Built target test_tf2
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/lib/demo_robot/test_tf1
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/lib/demo_robot/test_tf2
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/build/.built_by
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/build/COLCON_IGNORE
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/display.launch.py
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/.colcon_install_layout
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/COLCON_IGNORE
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/_local_setup_util_ps1.py
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/_local_setup_util_sh.py
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/local_setup.bash
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/local_setup.ps1
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/local_setup.sh
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/local_setup.zsh
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/setup.bash
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/setup.ps1
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/setup.sh
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/setup.zsh
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/log/COLCON_IGNORE
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/log/build_2025-10-10_11-55-20/events.log
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/log/build_2025-10-10_11-55-20/logger_all.log
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/log/latest/events.log
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/log/latest/logger_all.log
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/log/latest_build/events.log
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/log/latest_build/logger_all.log
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/urdf/model.urdf
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/ament_index/resource_index/package_run_dependencies/demo_robot
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/ament_index/resource_index/parent_prefix_path/demo_robot
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/environment/path.sh
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/environment/path.dsv
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/local_setup.bash
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/local_setup.sh
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/local_setup.zsh
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/local_setup.dsv
+-- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/package.dsv
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/ament_index/resource_index/packages/demo_robot
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/cmake/demo_robotConfig.cmake
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/cmake/demo_robotConfig-version.cmake
+-- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/package.xml

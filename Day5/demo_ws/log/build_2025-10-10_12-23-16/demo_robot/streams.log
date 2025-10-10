@@ -1,0 +1,86 @@
+[0.013s] Invoking command in '/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shouviks/shouvik/Day5/demo_ws/build/demo_robot -- -j16 -l16
+[0.042s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.154s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.162s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.362s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.364s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.368s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.379s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.433s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.434s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.340s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.436s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[8.438s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.440s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.443s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.519s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.519s] -- Configured cppcheck include dirs: 
+[8.519s] -- Configured cppcheck exclude dirs and/or files: 
+[8.519s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.520s] -- Added test 'lint_cmake' to check CMake code style
+[8.521s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.524s] -- Added test 'uncrustify' to check C / C++ code style
+[8.524s] -- Configured uncrustify additional arguments: 
+[8.524s] -- Added test 'xmllint' to check XML markup files
+[8.527s] -- Configuring done
+[8.549s] -- Generating done
+[8.556s] -- Build files have been written to: /home/shouviks/shouvik/Day5/demo_ws/build/demo_robot
+[8.590s] [35m[1mConsolidate compiler generated dependencies of target test_tf1[0m
+[8.590s] [35m[1mConsolidate compiler generated dependencies of target test_tf2[0m
+[8.611s] [ 50%] Built target test_tf1
+[8.612s] [100%] Built target test_tf2
+[8.625s] Invoked command in '/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shouviks/shouvik/Day5/demo_ws/build/demo_robot -- -j16 -l16
+[8.637s] Invoking command in '/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shouviks/shouvik/Day5/demo_ws/build/demo_robot
+[8.644s] -- Install configuration: ""
+[8.644s] -- Execute custom install script
+[8.645s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/lib/demo_robot/test_tf1
+[8.645s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/lib/demo_robot/test_tf2
+[8.645s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[8.646s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[8.646s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[8.646s]   Use the cmake_policy command to set the policy and suppress this warning.
+[8.646s] Call Stack (most recent call first):
+[8.646s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:320 (ament_cmake_symlink_install_directory)
+[8.646s]   cmake_install.cmake:46 (include)
+[8.647s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[8.647s] [0m
+[8.647s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/build/.built_by
+[8.647s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/build/COLCON_IGNORE
+[8.647s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/display.launch.py
+[8.647s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/.colcon_install_layout
+[8.647s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/COLCON_IGNORE
+[8.648s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/_local_setup_util_ps1.py
+[8.648s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/_local_setup_util_sh.py
+[8.648s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/local_setup.bash
+[8.648s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/local_setup.ps1
+[8.648s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/local_setup.sh
+[8.648s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/local_setup.zsh
+[8.648s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/setup.bash
+[8.649s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/setup.ps1
+[8.649s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/setup.sh
+[8.649s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/install/setup.zsh
+[8.649s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/log/COLCON_IGNORE
+[8.649s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/log/build_2025-10-10_11-55-20/events.log
+[8.650s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/log/build_2025-10-10_11-55-20/logger_all.log
+[8.650s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/log/latest/events.log
+[8.650s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/log/latest/logger_all.log
+[8.650s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/log/latest_build/events.log
+[8.650s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/launch/log/latest_build/logger_all.log
+[8.650s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/urdf/model.urdf
+[8.651s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/ament_index/resource_index/package_run_dependencies/demo_robot
+[8.651s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/ament_index/resource_index/parent_prefix_path/demo_robot
+[8.651s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/environment/ament_prefix_path.sh
+[8.651s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/environment/ament_prefix_path.dsv
+[8.651s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/environment/path.sh
+[8.651s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/environment/path.dsv
+[8.652s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/local_setup.bash
+[8.652s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/local_setup.sh
+[8.652s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/local_setup.zsh
+[8.652s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/local_setup.dsv
+[8.652s] -- Symlinking: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/package.dsv
+[8.662s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/ament_index/resource_index/packages/demo_robot
+[8.662s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/cmake/demo_robotConfig.cmake
+[8.662s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/cmake/demo_robotConfig-version.cmake
+[8.662s] -- Up-to-date symlink: /home/shouviks/shouvik/Day5/demo_ws/install/demo_robot/share/demo_robot/package.xml
+[8.665s] Invoked command in '/home/shouviks/shouvik/Day5/demo_ws/build/demo_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shouviks/shouvik/Day5/demo_ws/build/demo_robot
