@@ -1,3 +1,13 @@
 [ Launching a xacro file ]
 sudo apt install ros-jazzy-urdf-tutorial
 ros2 launch urdf_tutorial display.launch.py model:=/opt/ros/jazzy/share/urdf_tutorial/urdf/08-macroed.urdf.xacro
+
+[ View topics ]
+ros2 topic list
+ros2 topic echo /tf
+
+
+[ Visualize tf tree ]
+sudo apt install ros-jazzy-tf2-tools
+source /opt/ros/jazzy/setup.bash
+ros2 run tf2_tools view_frames
