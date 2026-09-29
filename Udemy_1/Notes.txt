@@ -11,3 +11,8 @@ ros2 topic echo /tf
 sudo apt install ros-jazzy-tf2-tools
 source /opt/ros/jazzy/setup.bash
 ros2 run tf2_tools view_frames
+
+-------
+URDF - Unified Robot Description Format
+-------
+
