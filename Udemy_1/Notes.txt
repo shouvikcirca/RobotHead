@@ -94,3 +94,8 @@ ros2 pkg create my_robot_description
 To open rviz2 directly from a config file
 ros2 run rviz2 rviz2 -d ros2_ws urdf_config.rviz
 But the launch.xml file has to be run first
+
+-----------------------------------------------------
+colcon build --symlink-install
+No need to build every time you modify a file
+Adding a file will still require building
