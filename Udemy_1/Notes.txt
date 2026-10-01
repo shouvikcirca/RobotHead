@@ -2,8 +2,11 @@
 sudo apt install ros-jazzy-urdf-tutorial
 ros2 launch urdf_tutorial display.launch.py model:=/opt/ros/jazzy/share/urdf_tutorial/urdf/08-macroed.urdf.xacro
 
-[ View topics ]
+[ View topics and nodes]
 ros2 topic list
+ros2 node list 
+
+[ View a topic ]
 ros2 topic echo /tf
 
 
@@ -16,3 +19,78 @@ ros2 run tf2_tools view_frames
 URDF - Unified Robot Description Format
 -------
 
+[ To visualize the nodes and topics in our graph]
+rqt_graph
+Click refresh if needed
+
+[ List the parameters of a node]
+ros2 param list /robot_state_publisher
+/robot_state_publisher is a node 
+
+[ To get the urdf ]
+ros2 param get /robot_state_publisher robot_description
+robot_description is a parameter of the node /robot_state_publisher
+
+****
+You have to provide the urdf as a parameter to the 
+/robot_state_publisher node which will publish the Description
+to the topics
+    /tf
+    /robot_description
+
+/robot_state_publisher also takes inputs from /joint_states
+****
+
+------Summary of how to launch URDF manually (22) -----
+1. Run the robot_state_publisher with urdf parameter
+ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro my_robot_17.urdf)"
+
+2. If xacro is not installed
+sudo apt install ros-jazzy-xacro
+
+3. Run the joint_state_publisher_gui
+ros2 run joint_state_publisher_gui joint_state_publisher_gui
+
+4. Run rviz2
+ros2 run rviz2 rviz2
+
+5. In rviz2 
+    Add robot model
+    Add tf
+    Change Global Options:Fixed Frame to "base footprint"
+    Change RobotModel:Description Topic to /robot_description 
+-----------------------------
+------------- Creating a workspace --------
+1. mkdir ros2_ws
+2. cd ros2_ws
+3. mkdir src 
+4. sudo apt install python3-colcon-common-extensions
+5. source /opt/ros/jazzy/setup.bash
+5. colcon build (inside ros2_ws)
+6. To source our workspace
+source install/setup.bash
+7. cd src
+8. Create package
+ros2 pkg create my_robot_description
+9. create my_robot_description/urdf
+10. Place your .urdf file inside urdf folder
+11. Make changes in the CMakeLists.txt file
+12. colcon build in ros2_ws
+----------------------------------------
+---------- Crweating a launch file
+1. Create a "launch" folder inside ros2_ws/src/my_robot_description
+2. Add the launch folder under "insta"" directive in CMakeLists.txt
+3. Create a "display.launch.xml" inside "launch"
+4. Edit display.launch.xml
+5. Go to ros2_ws and "colcon build"
+6. source install/setup.bash
+7. ros2 launch my_robot_description display.launch.xml 
+8. In rviz2 
+    Add robot model
+    Add tf
+    Change Global Options:Fixed Frame to "base footprint"
+    Change RobotModel:Description Topic to /robot_description 
+-------------------------------------------------------
+To open rviz2 directly from a config file
+ros2 run rviz2 rviz2 -d ros2_ws urdf_config.rviz
+But the launch.xml file has to be run first
