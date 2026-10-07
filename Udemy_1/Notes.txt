@@ -99,3 +99,53 @@ But the launch.xml file has to be run first
 colcon build --symlink-install
 No need to build every time you modify a file
 Adding a file will still require building
+
+------------------------------------------------------
+[ Install gazebo ]
+sudo apt install ros-jazzy-ros-gz
+
+[ Start gazebo ]
+gz sim 
+
+[ View topics of gazebo ]
+gz topic -l
+
+[ Launch gazebo from ROS2 ]
+ros2 launch ros_gz_sim gz_sim.launch.py gz_args:=empty.sdf
+But this does not establish communication between ROS2 and gazebo
+To do that we need a bridge (ros_gz_bridge)
+
+
+
+----------------------------------------------------
+[ Spawn our created urdf in Gazebo ]
+1. Go to ros3_ws/src/my_robot_description/urdf
+   ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro my_robot_17.urdf.xacro)"
+
+2. ros2 launch ros_gz_sim gz_sim.launch.py gz_args:="empty.sdf -r"
+-r to start playing on launch of Gazebo 
+
+3. ros2 run ros_gz_sim create -topic robot_description
+  This will spawn the robot in Gazebo 
+
+
+4. Go to /home/shouviks/ROS2_Udemy/RobotHead/Udemy_1
+   ros2 run rviz2 rviz2 -d ros3_ws/src/my_robot_description/rviz/urdf_config.rviz
+   This is to view the robot in rviz
+----------------------------------------------------------
+We use <exec_depend> in package.zml so that a warning is thrown if 
+any of the mentioned packages is not installed
+----------------------------------------------------------
+To see the type of message in a topic in gazebo
+gz topic -i -t <topic_name>
+
+----------------------------------------
+Moving the robot -> Video 49
+ros2 topic pub -r 1 /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.5}, angular: {z: 0.5}}"
+
+For manually Moving
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+-----------------------------------------------
+To launch a world
+gz sim <name of sdf file.sdf>
