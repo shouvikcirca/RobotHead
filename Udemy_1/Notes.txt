@@ -141,7 +141,7 @@ gz topic -i -t <topic_name>
 
 ----------------------------------------
 Moving the robot -> Video 49
-ros2 topic pub -r 1 /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.5}, angular: {z: 0.5}}"
+ros2 topic pub -r 1 /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.1}, angular: {z: 0.1}}"
 
 For manually Moving
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
@@ -149,3 +149,10 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 -----------------------------------------------
 To launch a world
 gz sim <name of sdf file.sdf>
+
+
+
+-------------------------------
+[ CMD command to move arm ]
+ros2 topic pub -1 /joint0/cmd_pos std_msgs/msg/Float64 "{data: 0.5}"
+ros2 topic pub -1 /joint1/cmd_pos std_msgs/msg/Float64 "{data: 0.5}"
